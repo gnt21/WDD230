@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Indie+Flower&family=Trade+Winds&display=swap');
+
+#content {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c492b1;
+    display:inline-flex;
+    width: 100%;
+    border-radius: 10px; 
+    justify-content: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#photo {
+    padding: 15px 35px 17px 10px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#photo-img {
+    border-radius: 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+
+}
+
+#name {
+    margin: 0;
+    align-self: center;
+}
+
+main {
+    margin: 20px;
+    font-family: "Indie Flower", serif, sans-serif;
+}
+
+p {
+    margin: 3px;
+    font-size: 1.2em;
+}
+
+.title {
+    margin: 5px;
+    font-size: 1.7em;
+}
+
+.ps {
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #c492b1;
+    width: 100%;
+    border-radius: 10px; 
+    justify-content: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.name-footer {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+#date2 {
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    color:midnightblue ;
+}
