@@ -64,7 +64,7 @@ footer {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.name-footer {
+#name-footer {
     text-align: center;
     margin: 10px;
     padding-top: 10px;
