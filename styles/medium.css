@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em)
+{
+    body{
+        color:#36021c;
+    }
+    header {
+        background-color: #462338;
+    }
+    header h1{
+        color: antiquewhite;
+    }
+    footer {
+        background-color: #462338;
+    }
+    footer h1{
+        color: antiquewhite;
+    }
+}

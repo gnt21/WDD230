@@ -1,0 +1,103 @@
+@media only screen and (max-width:37.5em) {
+    @import url('https://fonts.googleapis.com/css2?family=Ewert&family=Indie+Flower&family=Trade+Winds&display=swap');
+
+    #content {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    header {
+        background-color: #c492b1;
+        width: 100%;
+        border-radius: 10px; 
+        justify-content: center;
+        text-align: center;
+        box-shadow: 5px 5px 10px #6f7364;
+        padding: 0.2em 0 0.7em;
+    }
+    header h1, h2 {
+        margin: 0;
+    }
+
+
+    main {
+        margin: 20px;
+        font-family: 'Josefin Sans', 'Abel', sans-serif;
+        display: grid;
+        grid-template-rows: 3fr;
+        row-gap: 30px;
+    }
+
+    main section {
+        border-color: rgb(95, 24, 24);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        text-align: center;
+        height: auto;
+        min-height: 100%;
+        padding-bottom: 5%;
+ 
+
+    }
+
+    main section h1 {
+        margin-bottom: 0.5em;
+        height: 7%;
+        vertical-align: middle;
+        font-size: 1.8em;
+
+    }
+
+    main section p {
+        margin: 2% 3% 2% 3%;
+        text-align: left;
+        font-size: 1.3em;
+    }
+
+    .white {
+        grid-row: 1/2;
+       
+    }
+
+    .contrast {
+
+        grid-row: 2/3;
+  
+    }
+
+    .hierarchy {
+
+        grid-row: 3/4;
+        
+    }
+
+
+    .photo-img {
+        border-radius: 10px;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #6f7364;
+        width: 95%;
+        margin-top: 4%;
+
+    }
+
+    footer {
+        background-color: #c492b1;
+        width: 100%;
+        border-radius: 10px; 
+        justify-content: center;
+        box-shadow: 5px 5px 10px #6f7364;
+        padding-top: 0.2m;
+        padding-bottom: 0.2em;
+        margin-top: 50px;
+
+    }
+
+    #name-footer {
+        text-align: center;
+        margin: 10px;
+        padding-top: 10px;
+        font-size: 1.3em;
+    }
+}
