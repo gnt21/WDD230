@@ -1,5 +1,4 @@
 @media only screen and (min-width:37.5em)  and (max-width:60em) {
-    @import url('https://fonts.googleapis.com/css2?family=Ewert&family=Indie+Flower&family=Trade+Winds&display=swap');
 
     #content {
         max-width: 95%;
@@ -93,7 +92,6 @@
         border-radius: 10px; 
         justify-content: center;
         box-shadow: 5px 5px 10px #6f7364;
-        padding-top: 0.2m;
         padding-bottom: 0.2em;
 
     }
