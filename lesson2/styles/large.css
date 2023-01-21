@@ -40,7 +40,8 @@
 
     }
 
-    main section h1 {
+    main section h2 {
+        margin-top: 0.5em;
         margin-bottom: 0.5em;
         height: 7%;
         vertical-align: middle;
