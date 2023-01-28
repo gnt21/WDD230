@@ -1,0 +1,32 @@
+
+/* Tablet Views ******************************/
+@media only screen and (min-width:37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+  nav ul { display: flex; }
+		  nav ul li { flex: 1 1 auto; 
+			width: inherit;
+		} 
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+		--d: 75%;
+	}
+
+
+	footer p {
+		flex-direction: row;
+	}
+	
+	footer p span:not(:last-child)::after {
+		content: ' 🧪\00a0';
+	}
+	
+}
+
+
