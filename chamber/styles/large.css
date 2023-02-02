@@ -1,0 +1,47 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+	nav {
+		grid-column: 5/17;
+	}
+	.social {
+		grid-column: 18/20;
+	}
+	#logo_link {
+		grid-column: 2/4;
+	}
+
+
+	/*
+	h1 {
+		font-size: 2rem;
+	}
+	header a {
+		font-size: 1.1em;
+		color: #FFFFFF;
+		font-weight: bolder;
+	}
+
+
+
+
+
+
+	ul {
+		list-style: none;
+	}
+*/
+}

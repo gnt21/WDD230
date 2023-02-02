@@ -1,0 +1,339 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*border: solid black;*/
+}
+
+header{
+	margin: 0;
+	background-color: #506C64;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(20, 5%);
+	justify-content: center;
+	padding: .75rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-align: center;
+	align-items: center;
+	list-style: none;
+}
+header .social img {
+	width: 50px;
+}
+header .social {
+	display: flex;
+}
+#logo_link {
+	grid-column: 1/3;
+	justify-self: center;
+	align-self: center;
+}
+nav {
+	grid-column: 17/21;
+}
+.social {
+	display: flex;
+	justify-content:space-between;
+	grid-column: 13/15;
+	grid-row: 1/2;
+}
+.social li a {
+	margin: 0 3px 0 3px;
+}
+.data {
+	width: 100%;
+	border: 1px solid black;
+	grid-column: 1/21;
+}
+.data h2 {
+	padding: 5px;
+}
+.logo {
+    width: 100%;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display:block;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+	
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: right;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 1.1em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+}
+
+.data {
+	background-color: #1f3f359c;
+	border: transparent;
+	box-shadow: 1px 1px 1px grey;
+	color: #ffffff;
+	font-size: 0.7em;
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+  }
+
+  footer {
+	margin-top: 30px;
+	max-width: 100%;
+	background-color: #506C64;
+
+    color: #220C10;
+	padding: .75rem;
+	/*
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;	
+		flex-flow: column;
+	
+	border: 1px solid rgba(0, 0, 0, 0.2);
+
+		display: grid;*/
+}
+.logo-footer {
+	width: 100px;
+	display:block;
+	margin: 0 auto;
+}
+
+
+.address p {
+	text-align: center;	
+}
+.contact {
+	margin: 15px auto;
+	align-items: center;
+	justify-content: center;	
+}
+.contact p {
+	text-align: center;	
+}
+.contact a {
+	display: block;
+	margin: 0;
+	text-align: center;
+	max-width: 100%;
+}
+
+.updated {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	margin: 10px auto;
+	width: 95%;
+	text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: #220C10;
+	font-family: 'Abel', 'Josefin Sans', sans-serif;
+}
+hr {
+	border-color: #220C10;
+	margin-bottom: 10px;
+}
+/*
+header,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+
+main p {
+    font-size: 20px;
+    color: #220C10;
+	font-family: 'Abel', 'Josefin Sans', sans-serif;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+main h2 {
+	color: #506C64;
+    margin-top: 20px;
+    font-size: 2.2em;
+}
+
+nav {
+	background-color: #220C10;
+	margin: 0 auto;
+	max-width: 780px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+	font-weight: bolder;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav ul li {
+	flex: 1 1 auto;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+}
+nav ul li a {
+
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.1em;
+	background: linear-gradient(90deg, transparent, #EC058E, transparent) bottom /
+		var(--d, 0) 3px no-repeat;
+	transition: 0.5s;
+}
+
+.active {
+	color: #EC058E;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+
+footer p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.typo {
+	width: 100%;
+	min-width: 350px;
+	margin: 10px auto;
+	text-align: center;
+	border-collapse: collapse;
+  }
+.typo th, td {
+	border: 1px solid #220C10;
+	height: 2em;
+}
+.header-color {
+	color:#220C10;
+	background-color: #506C64;
+	font-size: 2em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+	font-weight: bolder;
+}
+.h2-color {
+	color:#506C64;
+	font-size: 2.2em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+}
+.h3-color {
+	color:#506C64;
+	font-size: 1.17em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+}
+.p-color {
+	color:#506C64;
+	font-size: 20px;
+	font-family: 'Abel', 'Josefin Sans', sans-serif;
+}
+.nav-color {
+	color:#ffffff;
+	background-color: #220C10;
+	font-size: 1.1em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+	font-weight: bolder
+}
+.nav-active-color {
+	color:#EC058E;
+	font-size: 1.1em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+	font-weight: bolder
+}
+.footer-color {
+	color:#220C10;
+	background-color: #506C64;
+	font-size: 1.5em;
+	font-family: 'Josefin Sans', 'Abel', sans-serif;
+	font-weight: bolder
+}
+
+.colors {
+	width: 100%;
+	min-width: 350px;
+	margin: 10px auto;
+	text-align: center;
+  }
+  .colors th {
+	background-color: #999;
+  }
+  .colors td {
+	width: 20%;
+	height: 3em;
+  }
+  .primary {
+	background-color: #506C64;
+  }
+  .secondary {
+	background-color: #220C10;
+	color:#ffffff;
+  }
+  .accent1 {
+	background-color: #ffffff;
+  }
+  .accent2{
+	background-color: #EC058E;
+  }
+  .accent3{
+	background-color: #06D6A0;
+  }
+
+
+        <div class = "contact">
+            <p>info@smoothchamber.com</p>
+            <p>+(713) 2983-9900</p>
+            <a href="https://www.google.com.br/maps/place/Consulate+General+of+Brazil/@29.7389963,-95.475833,17z/data=!3m2!4b1!5s0x863f50cb81ef6219:0xa9ee0c59fe5d591b!4m5!3m4!1s0x8640c1384a0c14f9:0xda786e9144a3ab85!8m2!3d29.7389963!4d-95.4736443?hl=pt-BR">Location Map</a>
+        </div>
+        <div class="updated">
+            <h2 id="name-footer">&copy; </h2>
+            <h2 id="date2"></h2>
+        </div>
